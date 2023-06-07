@@ -1,2 +1,0 @@
-# huyhoangphuc
-Doors hardcore mode
