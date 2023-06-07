@@ -1,0 +1,27 @@
+--- Goto Use BlackKing
+
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+
+    {Title = "Notification", Description = "Goto Use BlackKing Now!"},
+
+    {OutlineColor = Color3.fromRGB(255,255,255),Time = 5, Type = "image"},
+
+    {Image = "http://www.roblox.com/asset/?id=13429676701", ImageColor = Color3.fromRGB(255, 255, 255)}
+
+)
+
+Notification:Notify(
+
+    {Title = "Notification", Description = "ez.run <BlackKing.run>"},
+
+    {OutlineColor = Color3.fromRGB(255,255,255),Time = 10, Type = "image"},
+
+    {Image = "http://www.roblox.com/asset/?id=13429676701", ImageColor = Color3.fromRGB(255, 255, 255)}
+
+)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
