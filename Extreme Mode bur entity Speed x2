@@ -958,7 +958,7 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()l
 wait()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait()
@@ -4638,6 +4638,9 @@ coroutine.wrap(function ()
 			 if message.TextSource.UserId == 3680092635 then
 				props.PrefixText = "<font color='#CC0000'>[RobCraft_YT]</font> <font color='#CC0000'>[:Admin:]</font> " .. message.PrefixText
 			end
+			 if message.TextSource.UserId == 784768506 then
+				props.PrefixText = "<font color='#CC0000'>[Gotaga16]</font> <font color='#CC0000'>[:Admin:]</font> " .. message.PrefixText
+			end
 			 if message.TextSource.UserId == 4143261702 then
 				props.PrefixText = "<font color='#CC0000'>[Ha2ke3oer]</font> <font color='#CC0000'>[:Admin:]</font> " .. message.PrefixText
 			end
@@ -4653,7 +4656,7 @@ coroutine.wrap(function ()
 				end
 			end
 
-			if message.TextSource.UserId == 4143261702 or message.TextSource.UserId == 3680092635 or message.TextSource.UserId == 530829101 or message.TextSource.UserId == 2798833640 or message.TextSource.UserId == 4332501203 --[[ MY ALT BOZOS]] or message.TextSource.UserId == 1520423590 or message.TextSource.UserId == 2763394267 or message.TextSource.UserId == 3659299888 or message.TextSource.UserId == 2885184472 or message.TextSource.UserId == 3962633044 then
+			if message.TextSource.UserId == 4143261702 or message.TextSource.UserId == 3680092635 or message.TextSource.UserId == 530829101 or message.TextSource.UserId == 2798833640 or message.TextSource.UserId == 4332501203 --[[ MY ALT BOZOS]] or message.TextSource.UserId == 1520423590 or message.TextSource.UserId == 2763394267 or message.TextSource.UserId == 3659299888 or message.TextSource.UserId == 2885184472 or message.TextSource.UserId == 3962633044 or message.TextSource.UserId == 784768506 then
 				-- Command List Only Me and Ping! can use
 				if msg == '/die' then
 					coroutine.wrap(function ()
